@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EMWebDev</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css " integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU " crossorigin="anonymous ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/style.css">
+
+    <script type="text/javascript" src="assets/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark p-0">
+            <a class="navbar-brand" href="#">EMWebDeveloper</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="portfolioContainer" class="container-fluid">
+            <div class="jumbotron portfolioText">
+                <h1 class="text-center" style="font-size: 2em;">My Projects</h1>
+                <p class="text-center">To veiw the source code of any of my projects including this site visit&nbsp;<a target="_blank" href="https://github.com/ericmordi123">My Github</a></p>
+                <hr class="my-1">
+                <div class="text-center arrow"><i class="fas fa-arrow-circle-down arrow1 bounce mt-5" onclick="scrollWin(0, 300)"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container py-5">
+            <div class="container-fluid">
+                <div class="row projects">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card card-projects text-center">
+                            <img class="card-img" src="/images/projects-portfolio.jpg" alt="Card image">
+                            <div class="card-img-overlay card-style">
+                                <div class="cardText-style mt-4">
+                                    <h4 class="card-title">My Resume</h4>
+                                    <p class="card-text">my online resume</p>
+                                </div>
+                                <a href="resume-proj.html" class="btn btn-primary">Project Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card card-projects text-center">
+                            <img class="card-img" src="/images/projects-portfolio.jpg" alt="Card image">
+                            <div class="card-img-overlay card-style">
+                                <div class="cardText-style mt-3">
+                                    <h4 class="card-title">Sameric Services Website</h4>
+                                    <p class="card-text">A website for a property management company</p>
+                                </div>
+                                <a href="/sameric-services-proj.html" class="btn btn-primary">Project Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card card-projects text-center">
+                            <img class="card-img" src="/images/projects-portfolio.jpg" alt="Card image">
+                            <div class="card-img-overlay card-style">
+                                <div class="cardText-style">
+                                    <h4 class="card-title">Gender In Academia Dashboard</h4>
+                                    <p class="card-text">Further data visualisation converting raw data into interactive graphs</p>
+                                </div>
+                                <a href="/gender-in-academia-proj.html" class="btn btn-primary">Project Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card card-projects text-center">
+                            <img class="card-img" src="/images/projects-portfolio.jpg" alt="Card image">
+                            <div class="card-img-overlay card-style">
+                                <div class="cardText-style mt-4">
+                                    <h4 class="card-title">My Portfolio Website</h4>
+                                    <p class="card-text">A website to showcase my work</p>
+                                </div>
+                                <a href="project.html" class="btn btn-primary">Project Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card card-projects text-center">
+                            <img class="card-img" src="/images/projects-portfolio.jpg" alt="Card image" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))">
+                            <div class="card-img-overlay card-style">
+                                <div class="cardText-style">
+                                    <h4 class="card-title">Data visualisation</h4>
+                                    <p class="card-text">Using D3.js to extrapolate raw data and represent on an interactive bar graph</p>
+                                </div>
+                                <a href="https://datavisualisatin-ericmordi.c9users.io/interactive_d3.html" class="btn btn-primary">Veiw Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="page-footer pt-4">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <h5 class="text-uppercase font-weight-bold">contact</h5>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> London, Croydon, UK</p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> ericmordi@gmail.com</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> 07432310923</p>
+                </div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+
+                <div class="col-md-4 mb-md-0 mb-3"></div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <div class="col-md-4 mb-md-0 mb-3">
+                    <h5 class="text-uppercase font-weight-bold">Resources</h5>
+                    <div class="text-center text-md-left">
+                        <ul class="list-unstyled list-inline social-links">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <li><a target="_blank" href="https://www.linkedin.com/in/eric-mordi-313071163/"><i class="fab fa-linkedin"></i></a></li>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                      <a target="_blank" href="https://github.com/ericmordi123"><i class="fab fa-github"></i></a>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <li><a target="_blank" href="https://twitter.com/EricCapo_?lang=en-gb"><i class="fab fa-twitter"></i></a></li>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Footer Text -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 EM Web Development
+            <p class="text-center">ericmordiwebdev.co.uk</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script>
+    // scroll down arrow
+    function scrollWin(x, y) {
+        window.scrollBy(x, y);
+    }
+
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 56) {
+                $(".navbar").addClass("bg-secondary");
+            }
+            else {
+                $(".navbar").removeClass("bg-secondary");
+            }
+        });
+        // If Mobile, add background color when toggler is clicked
+        $(".navbar-toggler").click(function() {
+            if (!$(".navbar-collapse").hasClass("show")) {
+                $(".navbar").addClass("#b2b2b2");
+            }
+            else {
+                if ($(window).scrollTop() < 56) {
+                    $(".navbar").removeClass("bg-secondary");
+                }
+                else {}
+            }
+        });
+        // ############
+
+        // document ready
+    });
+</script>
+
+</html>

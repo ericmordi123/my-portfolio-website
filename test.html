@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EricMordiWebDev</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css " integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU " crossorigin="anonymous ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/style.css">
+
+
+    <script type="text/javascript" src="assets/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <a class="navbar-brand" href="#">Fixed navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+
+      <!--
+    ####################################################
+    C A R O U S E L
+    ####################################################
+    -->
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <a href="https://bootstrapcreative.com/">
+                    <!-- 
+                    If you need more browser support use https://scottjehl.github.io/picturefill/
+                    If a picture looks blurry on a retina device you can add a high resolution like this
+                    <source srcset="img/blog-post-1000x600-2.jpg, blog-post-1000x600-2@2x.jpg 2x" media="(min-width: 768px)">
+
+                    What image sizes should you use? This can help - https://codepen.io/JacobLett/pen/NjramL
+                     -->
+                     <picture>
+                      <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                      <source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
+                       <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
+                      <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+
+                    <div class="carousel-caption">
+                        <div>
+                            <h2>Digital Craftsmanship</h2>
+                            <p>We meticously build each site to get results</p>
+                            <span class="btn btn-sm btn-outline-secondary">Learn More</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+            <div class="carousel-item">
+                <a href="https://bootstrapcreative.com/">
+                     <picture>
+                      <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                      <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
+                       <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
+                      <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                            <h2>Every project begins with a sketch</h2>
+                            <p>We work as an extension of your business to explore solutions</p>
+                            <span class="btn btn-sm btn-outline-secondary">Our Process</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+            <div class="carousel-item">
+                <a href="https://bootstrapcreative.com/">
+                     <picture>
+                      <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                      <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
+                       <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
+                      <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                            <h2>Performance Optimization</h2>
+                            <p>We monitor and optimize your site's long-term performance</p>
+                            <span class="btn btn-sm btn-secondary">Learn How</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+        </div>
+        <!-- /.carousel-inner -->
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- /.carousel -->
+
+
+<div class="container py-5">
+  <h2>Some filler text to make the page vertically scroll</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veniam laudantium hic vitae tenetur! Amet, saepe? Ipsam, illum expedita iusto sint aspernatur dicta nam aliquam consequatur corporis praesentium, necessitatibus quibusdam.</p>
+</div>
+<!-- Footer -->
+<footer class="page-footer pt-4">
+    <!-- Footer Text -->
+    <div class="container text-center text-md-left">
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-4 mt-md-0 mt-3">
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">contact</h5>
+         <p>
+            <i class="fas fa-home mr-3"></i> London, Croydon, UK</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> ericmordi@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 07432310923</p>
+        </div>
+        
+        <hr class="clearfix w-100 d-md-none pb-3">
+        
+        <!-- Grid column -->
+        <div class="col-md-4 mb-md-0 mb-3">
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <!-- Grid column -->
+        <div class="col-md-4 mb-md-0 mb-3">
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Resources</h5>
+          <div class="text-center text-md-left">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+
+    </div>
+    <!-- Footer Text -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 EM Web Development
+            <p class="text-center">ericmordiwebdev.co.uk</p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+<!-- /.container -->
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center ">
+
+      <!-- Footer links -->
+      <div class="row text-center mt-3 pb-3">
+
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+          
+            <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 ml-lg-0">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Resources</h6>
+
+          <!-- Social buttons -->
+          <div class="text-center text-md-center">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        
+
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p>
+            <i class="fas fa-home mr-3"></i> London, Croydon, UK</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> ericmordi@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 07432310923</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Footer links -->
+
+      <hr>
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-lg-12">
+
+          <!--Copyright-->
+          <p class="text-center">© 2019 EM Web Development
+              <strong> ericmordiwebdev.co.uk</strong>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+      
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+  </footer>
+  <!-- Footer -->
+  
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  // executes when HTML-Document is loaded and DOM is ready
+
+
+  /*
+  ################
+  Add navbar background color when scrolled
+  */
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 56) {
+      $(".navbar").addClass("bg-dark");
+    } else {
+      $(".navbar").removeClass("bg-dark");
+    }
+  });
+  // If Mobile, add background color when toggler is clicked
+  $(".navbar-toggler").click(function() {
+    if (!$(".navbar-collapse").hasClass("show")) {
+      $(".navbar").addClass("bg-dark");
+    } else {
+      if ($(window).scrollTop() < 56) {
+        $(".navbar").removeClass("bg-dark");
+      } else {
+      }
+    }
+  });
+  // ############
+
+  // document ready
+});
+</script>
+</html>

@@ -1,5 +1,382 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700");
+/*--------------------------------------------Icons*/
 
-.e {
-    color: red;
+.fa-linkedin-in {
+  color: #fafafa;
+  padding-top: 20px;
+}
+
+.fa-github {
+  color: #fafafa;
+  padding-top: 20px;
+}
+
+.fa-arrow-circle-down {
+  font-size: 1em !important;
+}
+
+.fa-laptop {
+  font-size: 10em;
+}
+
+/*--------------------------------------------Main*/
+
+body {
+  background: #fafafa;
+  font-family: "lato";
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+/*--------------------------------------------Footer*/
+.page-footer {
+  background-color: #6C757D;
+  color: #fafafa;
+}
+
+.social-links li i {
+  color: white;
+}
+
+/*--------------------------------------------Homepage Header*/
+
+#homepage-container {
+  height: 100vh;
+  /*background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/coding-mind.png') no-repeat center center fixed;*/
+  background: url('/images/coding-mind.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.homepageMainText {
+  margin-top: 60px;
+  font-weight: 500;
+  font-size: 2em;
+  color: #fafafa;
+  text-shadow: 1px 2px black;
+}
+
+/*--------------------------------------------Section index.html*/
+
+.blockquote {
+  margin: 50px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.aboutMe {
+  font-weight: 400;
+  font-size: 1em;
+  font-family: "lato";
+  padding-bottom: 10px;
+}
+
+.myProjects {
+  border: solid #F8F9FA 2px;
+  border-radius: 20px;
+  background-color: #EAEAEA;
+  text-align: center;
+  padding: 20px;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.skills-container {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+
+/*--------------------------------------------Portfolio Header*/
+
+#portfolioContainer {
+  height: 100vh;
+
+  background: url('/images/my_portfolio.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.portfolioText {
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #fafafa;
+  text-shadow: 1px 2px black;
+}
+
+
+/*--------------------------------------------Section Portfolio.html*/
+
+.card-style {
+  color: #fafafa;
+  padding-top: 70px;
+  text-shadow: 2px 1px black;
+}
+
+.cardText-style {
+  background-color: #b2b2b2;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.projects {
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------------Project.html*/
+
+#projectsContainer {
+  height: 100vh;
+  
+  background: url('/images/eat-sleep-code-repeat.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.projectSection {
+  height: 240px;
+}
+
+.technologies ul, li {
+   display: inline !important;
+   text-align: center;
+}
+
+.technologies ul, li, i {
+  margin: 10px;
+  padding-top: 10px;
+}
+
+
+.viewProjectButton {
+  width: 100%;
+  margin: 100px;
+  text-align: center !important;
+}
+
+.projButton {
+  width: 100%;
+}
+
+
+/*--------------------------------------------Contact.html*/
+.messageSection {
+  background-color: #EAEAEA !important;
+}
+.envel {
+  text-align: center;
+  display: block;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-cover {
+  height: 100vh !important;
+  background-position: center fixed !important;
+  background-size: cover !important;
+}
+
+.form-control {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+label {
+  color: #fafafa;
+}
+
+.formsContainer {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.sendMessageButton {
+  text-align: center !important;
+}
+
+/*--------------------------------------------Spacing*/
+
+.my-1 {
+  background-color: #29ABE3;
+  width: 100%;
+  height: 5px;
+}
+
+.my-2 {
+  background-color: #29ABE3;
+  height: 2px;
+}
+
+
+/*--------------------------------------------ProgressBar*/
+
+.progress {
+  height: 5px;
+}
+
+.progress-bar {
+  padding-top: 3px !important;
+}
+
+
+/*------------------------------------------------DownArrow*/
+
+.arrow1 {
+  font-size: 1.3em !important;
+}
+
+.bounce {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s infinite linear;
+  colr: 000;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@-moz-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@-o-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+/*------------------------------------------------MediaQueries*/
+
+@media only screen and (max-width: 425px) {
+  .skills-container {
+    width: 100%;
+  }
+
+  .card {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card-projects {
+    margin-bottom: 50px !important;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .form-control {
+    width: 80%;
+  }
+  .formsContainer {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .envel {
+    text-align: center;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 }

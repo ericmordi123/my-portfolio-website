@@ -5,83 +5,256 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EMWebDev</title>
+    <title>EricMordiWebDev</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css " integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU " crossorigin="anonymous ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css">
+
 
     <script type="text/javascript" src="assets/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark p-0">
+            <a class="navbar-brand" href="#">EMWebDeveloper</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="jumbotron">
-            <h1 class="text-center">Eric Mordi</h1>
-            <p class="text-center">Junior Software Developer & Project Manager</p>
-            <hr class="my-4">
-            <ul class="text-center list-inline social-links">
-                <li><a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;<a target="_blank" href="#"><i class="fab fa-github"></i></a></li>
-            </ul>
-        </div>
-    </header>
-    <section>
-        <div class="container-fluid">
-            <blockquote class="blockquote text-right">
-                <p class="mb-0">You know you are working on clean code code when each routine you read turns out to be pretty much what you expected.</p>
-                <p class="mb-0">You can call it beautiful code when the code also makes it look like the language was made for the problem.</p>
-                <footer class="blockquote-footer">Ward Cunningham (Inventor of Wiki)&nbsp;<cite title="Source Title">Clean Code</cite></footer>
-            </blockquote>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-8">
-                    <p>I am a Developer that puts emphasis on ensuring my code is clean in order for it to be easily updated, debugged and improved to maintain a bespoke and current outlook at all times no matter the project. 
-                    I find the world of coding and all things Tech exciting. I particularly enjoy having the opportunity to problem solve and create and being of service to others extremely rewarding </p>
-                    <p>I am currently studying to achieve my certified diploma in Full Stack Web Development and also to complete my PRINCE2 in Project Management with the Code Institute and The Learning People.</p>
-                </div>
-                <div class="col-sm-4"><a target="_blank" href="#"><i class="fas fa-laptop"></i></a><span>Veiw My Projects</span></div>
+        <div id="homepage-container" class="container-fluid">
+            <div class="jumbotron homepageMainText">
+                <h1 class="text-center" style="font-size: 2em;">Eric Mordi</h1>
+                <p class="text-center">Junior Software Developer & Project Manager</p>
+                <hr class="my-1">
+                <ul class="text-center list-inline">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/eric-mordi-313071163/"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://github.com/ericmordi123"><i class="fab fa-github"></i></a></li>
+                </ul>
+                <div class="text-center list-inline"><i class="fas fa-arrow-circle-down arrow bounce" onclick="scrollWin(0, 500)"></i></div>
             </div>
         </div>
-        
-        <div><h3 class="text-center">My Skills</h3></div>
-    
-    <div class="container">
-  <div class="row">
-    <div class="col-6 col-sm-4">HTML</div>
-    <div class="col-6 col-sm-4">CSS</div>
-    <div class="col-6 col-sm-4">JavaScript/JQuery</div>
-    <div class="w-100"></div>
-    <div class="col-6 col-sm-4">Sass/scss</div>
-    <div class="col-6 col-sm-4">Python</div>
-    <div class="col-6 col-sm-4">Django</div>
-  </div>
-</div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <blockquote class="blockquote text-right">
+                <p class="mb-0">You know you are working on clean code when each routine you read turns out to be pretty much what you expected.</p>
+                <p class="mb-0">You can call it beautiful code when the code also makes it look like the language was made for the problem.</p>
+                <div class="blockquote-footer">Ward Cunningham (Inventor of Wiki)&nbsp;<cite title="Source Title">Clean Code</cite></div>
+            </blockquote>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 aboutMe">
+                    <h2>About Me</h2>
+                    <hr align="left" width="30%" class="my-2">
+
+                    <p>I am a Developer that puts emphasis on ensuring my code is clean in order for it to be easily updated, debugged and improved to maintain a bespoke and current outlook at all times no matter the project. I find the world of coding and
+                        all things Tech exciting. I particularly enjoy having the opportunity to problem solve and create aswell as being of service to others which I find extremely rewarding </p>
+                    <p>I am currently studying to achieve my certified diploma in Full Stack Web Development and also to complete my PRINCE2 in Project Management with the Code Institute and The Learning People.</p>
+                </div>
+                <div class="col-sm-4 myProjects"><a target="_blank" href="portfolio.html"><i class="fas fa-laptop"></i><h3>Veiw My Projects</h3></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <h3 class="text-center skills">My Skills</h3>
+            <hr width="30%" class="my-2">
+        </div>
+        <div class="container skills-container">
+            <div class="row pb-3">
+                <div class="col-6 col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/html5-logo.png" alt="HTML5 Logo" width="60px" height="60px">
+                            <span class="card-title">HTML5</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/css-logo.png" alt="CSS Logo" width="60px" height="60px"></img>
+                            <span class="card-title">CSS</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 97%;" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/javascript-logo.png" alt="JavaScript Logo" width="60px" height="60px"></img>
+                            <span class="card-title">JavaScript</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-6 col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/python-logo.jpg" alt="Python Logo" width="60px" height="60px"></img>
+                            <span class="card-title">Python</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/django logo.png" alt="Django Logo" width="80px" height="60px"></img>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <img src="images/sass-logo-png.png" alt="Sass Logo" width="60px" height="60px">
+                            <span class="card-title">Sass/Scss<a data-toggle="popover" title="CSS Preprocessor" data-content="Some content inside the popover"><i class="far fa-question-circle"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-sm-4">
+                    <div class="card">
+                        <div class="card-body pt-4">
+                            <img src="/images/Logo_jasmine.svg.png" alt="Jasmine-logo" width="60px" height="60px"></img>
+                            <span class="card-title">Jasmine<a data-toggle="popover" title="Open source testing framework for JavaScript" data-content="Some content inside the popover"><i class="far fa-question-circle"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <div class="card">
+                        <div class="card-body m-0">
+                            <i class="fas fa-mobile-alt p-0 m-0" style="font-size:4em;"></i>
+                            <span class="card-title">RWD<a data-toggle="popover" title="Responsive Web Development" data-content="Some content inside the popover"><i class="far fa-question-circle"></i></a></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <footer class="page-footer pt-4">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <h5 class="text-uppercase font-weight-bold">contact</h5>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> London, Croydon, UK</p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> ericmordi@gmail.com</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> 07432310923</p>
+                </div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+
+                <div class="col-md-4 mb-md-0 mb-3"></div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <div class="col-md-4 mb-md-0 mb-3">
+                    <h5 class="text-uppercase font-weight-bold">Resources</h5>
+                    <div class="text-center text-md-left">
+                        <ul class="list-unstyled list-inline social-links">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <li><a target="_blank" href="https://www.linkedin.com/in/eric-mordi-313071163/"><i class="fab fa-linkedin"></i></a></li>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                      <a target="_blank" href="https://github.com/ericmordi123"><i class="fab fa-github"></i></a>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                    <li><a target="_blank" href="https://twitter.com/EricCapo_?lang=en-gb"><i class="fab fa-twitter"></i></a></li>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Footer Text -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 EM Web Development
+            <p class="text-center">ericmordiwebdev.co.uk</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script>
+    // scroll down arrow
+    function scrollWin(x, y) {
+        window.scrollBy(x, y);
+    }
+
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 56) {
+                $(".navbar").addClass("bg-secondary");
+            }
+            else {
+                $(".navbar").removeClass("bg-secondary");
+            }
+        });
+        // If Mobile, add background color when toggler is clicked
+        $(".navbar-toggler").click(function() {
+            if (!$(".navbar-collapse").hasClass("show")) {
+                $(".navbar").addClass("bg-secondary");
+            }
+            else {
+                if ($(window).scrollTop() < 56) {
+                    $(".navbar").removeClass("bg-secondary");
+                }
+                else {}
+            }
+        });
+        // document ready
+    });
+</script>
 
 </html>
