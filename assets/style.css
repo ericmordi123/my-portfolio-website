@@ -380,3 +380,14 @@ label {
   width: 50%;
 }
 }
+
+
+@media only screen and (max-width: 425px) {
+#portfolioContainer {
+  width: 100% !important;
+}
+.technologies ul, li{
+  padding-left: 0px !important;
+}
+}
+
