@@ -12,16 +12,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="/assets/style.css">
-    
+
 
     <script type="text/javascript" src="assets/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<header>
-<div id="projectsContainer" class="container-fluid">
+    <header>
+        <div id="projectsContainer" class="container-fluid">
             <div class="jumbotron portfolioText container-fluid">
-                <h1 class="text-center" style="font-size: 2em;">My Resume</h1>
+                <h1 class="text-center" style="font-size: 2em;">D3 Interactive Data Visualisation</h1>
                 <div class="text-center arrow"><i class="fas fa-arrow-circle-down arrow1 bounce mt-5" onclick="scrollWin(0, 300)"></i></div>
             </div>
         </div>
@@ -29,46 +30,44 @@
             <ul style="list-style: none;">
                 <li><i class="devicon-html5-plain-wordmark colored" style="font-size: 5em;"></i></li>
                 <li><i class="devicon-css3-plain-wordmark colored" style="font-size: 5em;"></i></li>
-                <li><i class="devicon-bootstrap-plain-wordmark colored" style="font-size: 5em;"></i></li>
-                <li><i class="devicon-jquery-plain-wordmark colored" style="font-size: 5em;"></i></li>
                 <li><i class="devicon-javascript-plain colored" style="font-size: 5em;"></i></li>
+                <li><i class="devicon-d3js-plain colored" style="font-size: 5em;"></i></li>
             </ul>
         </div>
         <hr class="mb-0">
-        </header>
-        <nav aria-label="breadcrumb">
-  <ol class="breadcrumb" class="mt-0">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="portfolio.html">portfolio</a></li>
-    <li class="breadcrumb-item active" aria-current="page">My Resume Project</li>
-  </ol>
-</nav>
-        <section class="container projectSection py-5">
-            <div class="row">
+    </header>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb" class="mt-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="portfolio.html">portfolio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">D3 Interactive Data Visualisation</li>
+        </ol>
+    </nav>
+    <section class="container projectSection py-5">
+        <div class="row">
             <div class="col-12 col-md-6">
                 <h2>Project Brief</h2>
                 <hr align="left" width="40%" class="my-2">
-                <p>To use the knowledge I have acquired to create a fully responsive online resume in order to physically showcase my coding skillset as well as my education, history, and interests.
-                I also find it to be more alluring than a piece of paper or word document that can outline these things.</p>
+                <p>Extrapolate raw data and create a graph using key Javascript libraries like D3.js, Dc.js to create a visual representation of this data.</p>
             </div>
             <div class="col-12 col-md-6">
                 <h2>Outcome</h2>
                 <hr align="left" width="35%" class="my-2">
-                <p>I have utilized the technologies listed above to create a fully responsive resume website that highlights my codings skills so far and all my experience.
-                I used Jquery and Javascript to create the my Github section that automatically shows you my Github repository and will take you directly to any project you click on to view the source code, READMe file, and all resources used in addition, it will show you any other repository when you type in the Github username in the search bar. 
-                I used javascript to create a map that highlighted the locations I like to go to in my interest section. 
-                I achieved this by using Github and google maps APIs.</p>
-                
+                <p>This is the resulting code for the D3 practice tutorials an interactive D3 data visualisation tutorial (index.html). 
+                By clicking 'Change Data' will randomly produce 19 sets of data, and then converts this into a bar chart.
+                Clicking 'Filter Data' will do the same, but will filter data from the lowest value (if no value entered in the minimum value box, assumes 100).
+                although through research I found other databases like <a target="_blank" href="https://www.chartjs.org/samples/latest/">Chart.js</a> that can do the job for you I wanted to get a good understanding of the coding behind it in order to enhance my knowledge. 
+                </p>
             </div>
-            </div>
-            <div class="row">
+        </div>
+        <div class="row">
             <div class="viewProjectButton">
-            <a target="_blank" href="https://ericmordi123.github.io/ericmordi-resume/"><button type="button" class="btn btn-primary btn-lg projButton">View Project</button></a>
+                <a target="_blank" href="https://ericmordi123.github.io/data-visualisation/"><button type="button" class="btn btn-primary btn-lg projButton">View Project</button></a>
             </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-    
+
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -78,5 +77,6 @@
     function scrollWin(x, y) {
         window.scrollBy(x, y);
     }
-    </script>
+</script>
+
 </html>
