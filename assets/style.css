@@ -45,7 +45,7 @@ body {
 #homepage-container {
   height: 100vh;
   /*background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/coding-mind.png') no-repeat center center fixed;*/
-  background: url('/images/coding-mind.png') no-repeat center center fixed;
+  background: url('../images/coding-mind.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -105,7 +105,7 @@ body {
 #portfolioContainer {
   height: 100vh;
 
-  background: url('/images/my_portfolio.jpeg') no-repeat center center fixed;
+  background: url('../images/my_portfolio.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -149,7 +149,7 @@ body {
 #projectsContainer {
   height: 100vh;
   
-  background: url('/images/eat-sleep-code-repeat.jpg') no-repeat center center fixed;
+  background: url('../images/eat-sleep-code-repeat.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
