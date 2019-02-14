@@ -392,3 +392,11 @@ label {
 }
 }
 
+
+@media only screen and (max-width: 450px) {
+  .devicon {
+    font-size: 3em !important;
+  }
+}
+
+
