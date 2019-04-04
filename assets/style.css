@@ -148,7 +148,7 @@ body {
 /*--------------------------------------------Project.html*/
 
 #projectsContainer {
-  height: 100vh;
+  height: 50vh;
   
   background: url('../images/eat-sleep-code-repeat.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
