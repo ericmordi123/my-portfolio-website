@@ -108,7 +108,7 @@ body {
 /*--------------------------------------------Portfolio Header*/
 
 #portfolioContainer {
-  height: 100vh;
+  height: 50vh;
 
   background: url('../images/my_portfolio.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
